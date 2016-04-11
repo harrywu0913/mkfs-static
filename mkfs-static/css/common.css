@@ -1,0 +1,83 @@
+.main_content {
+	width:100%;
+}
+
+#register_form,
+#login_form{
+	margin-top:100px;
+	margin-left:300px;
+}
+
+.form {
+	float: left;
+	font-size: 13px;
+}
+
+.form-item {
+	line-height: 36px;
+	float: left;
+	vertical-align: middle;
+	width: 100%;
+	margin-top:10px;
+}
+
+.form-item-label{
+	float: left;
+	text-align: right;
+	width: 180px;
+	margin-right:10px;
+}
+
+.form-input-text {
+	height: 40px;
+	line-height: 32px;
+	padding-left: 10px;
+	width: 288px;
+	border: 1px solid #ccc;
+	outline: none;
+	border-radius: 2px;
+}
+
+.form-item-checkcode{
+	width:90px;
+}
+
+.form-item-must{
+	color: red;
+	margin: 0 4px;
+	font-weight: normal;
+}
+
+.form-item-btn{
+	background-color: #f72862;
+	cursor: pointer;
+	color: #fff;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 28px;
+	display: inline-block;
+	outline: none;
+	border: 0;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 2px;
+	border-radius: 2px;
+	width: 300px;
+}
+
+.checkcode{
+	width:100px;
+}
+
+label.error {
+	display: inline-block;
+	font-size: 12px;
+	padding-left: 30px;
+	background: url("/images/icon/error.png") 9px no-repeat #fffff8;
+	color: #f72862;
+	width: 268px;
+	border: 1px solid #ffd797;
+	height: 31px;
+	line-height: 31px;
+	margin-left: 10px;
+}
